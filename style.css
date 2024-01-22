@@ -113,7 +113,7 @@ ul {
   position: relative;
 }
 
-.header .profile-image {
+.header.profile-image {
   position: absolute;
   left:  0;
   top: 0;
@@ -125,7 +125,7 @@ ul {
   background-position: top center;
 }
 
-.header .profile-image:before {
+.header.profile-image:before {
  content: "";
  position: absolute;
  left:  0;
