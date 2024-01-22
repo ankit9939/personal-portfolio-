@@ -113,19 +113,19 @@ ul {
   position: relative;
 }
 
-.header.profile-image {
+.header .profile-image {
   position: absolute;
   left:  0;
   top: 0;
   z-index: -1;
   width: 100%;
   height: 100%;
-  background-image: url(../img/image.png);
+  background-image: url(../img/image.JPG);
   background-size: cover;
   background-position: top center;
 }
 
-.header.profile-image:before {
+.header .profile-image:before {
  content: "";
  position: absolute;
  left:  0;
